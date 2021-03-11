@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     $('#btnAgregar').click(function(){
         objEvento = recolectarDatosGUI("POST");
-        EnviarInformacion('',objEvento);
+        EnviarInformacion('',objEvento);        
     });
     $('#btnEliminar').click(function(){
         objEvento = recolectarDatosGUI("DELETE");
@@ -94,10 +94,11 @@ document.addEventListener('DOMContentLoaded', function() {
           '_token':$("meta[name='csrf-token']").attr("content"),
           '_method':method
 
-        }
+        }        
         return (nuevoEvento);
     }
     function EnviarInformacion(accion,objEvento){
+      
       $.ajax(
         {
           type:"POST",
