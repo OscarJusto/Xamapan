@@ -37,8 +37,6 @@ class AppServiceProvider extends ServiceProvider
         // View::share('categories', Category::all());
         Blade::component('components.navigation', navigation::class);
         
-        if (env('APP_ENV') === 'production') {
-            \Illuminate\Support\Facades\URL::forceScheme('https');
-        }
+        
     }
 }
