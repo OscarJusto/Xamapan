@@ -42,7 +42,7 @@
           </button>
         </div>
         <div class="modal-body">
-          <div class="d-none">
+          <div>
             ID: 
             <input type="text" name="txtID" id="txtID">
             <br>
