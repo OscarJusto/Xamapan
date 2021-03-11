@@ -15,11 +15,11 @@ class UserSeeder extends Seeder
     public function run()
     {
         User::create([ 
-            'name' => 'Oscar Martin Justo Martinez',
-            'email' =>  'oscarjusto4@gmail.com',
-            'password' => bcrypt('mateo_justo')
+            'name' => 'Admin',
+            'email' =>  'xamapan_admin@gmail.com',
+            'password' => bcrypt('admin_xamapan')
         ]);
 
-        User::factory(9)->create();
+        User::factory(2)->create();
     }
 }
