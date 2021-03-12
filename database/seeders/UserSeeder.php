@@ -20,6 +20,6 @@ class UserSeeder extends Seeder
             'password' => bcrypt('admin_xamapan')
         ]);
 
-        User::factory(2)->create();
+        User::factory(1)->create();
     }
 }
