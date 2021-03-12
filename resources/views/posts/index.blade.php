@@ -6,7 +6,7 @@
         @foreach ($posts as $post)
             <div class="col @if($loop->first)col-lg-8 col-sm-12 @endif">
                 <div class="p-2">
-                    <article style = "background-image: url(@if($post->image) {{Storage::url($post->image->url) }} @else https://cdn.pixabay.com/photo/2021/01/05/06/40/boat-5889919_960_720.png @endif); width: 100%; height: 35vh; background-size: cover; background-position: center;">
+                    <article style = "background-image: url(@if($post->image) {{Storage::disk('s3')->url($post->image->url) }} @else https://cdn.pixabay.com/photo/2021/01/05/06/40/boat-5889919_960_720.png @endif); width: 100%; height: 35vh; background-size: cover; background-position: center;">
                     {{-- <article style = "background-image: url({{Storage::url($post->image->url) }}); width: 100%; height: 35vh; background-size: cover; background-position: center;"> --}}
                         {{-- <img class="img-fluid" src="{{Storage::url($post->image->url) }}" alt=""> --}}
                         <div class="card text-white">
