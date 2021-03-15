@@ -31,8 +31,7 @@
                                 Acerca de nuestra tilapia
                             </span>                        
                         </h4>
-                        <p>Somos una organización dedicada a ofrecer capacitación y a promover la adopción de prácticas de producción sostenibles a través de programas de formación para la población y para los diferentes sectores productivos con la finalidad de fortalecer el desarrollo de capacidades de comunicación, organización y administración contribuyendo a la preservación del ambiente y al desarrollo comunitario. </p>
-                        <p>Desarrollamos y colaboramos en proyectos en el desarrollo de proyectos de investigación en incidencia con otras organizaciones públicas y privadas e instituciones de educación superior.</p>
+                        <p>Somos un grupo de productores que operamos una granja de producción de tilapia con un sistema de alto nivel tecnológico para ofrecer productos de excelente calidad con garantía de inocuidad y sanidad. </p>
                     </div> 
                 </div>
             </section>

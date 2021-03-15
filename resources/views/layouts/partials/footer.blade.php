@@ -5,11 +5,11 @@
             <p>Carr. Camino a Zacatal km 1.5</p>
             <p>Jamapa Veracruz, México</p>
             <p>Correo: xamapan@hotmail.com</p>
-            <p>Teléfono: 2291862979</p>
+            <p>Teléfono: 229 186 29 79</p>
         </div>
     </div>
     <div class="social-media">
-        <a class="social-media-icon" href=" ">
+        <a class="social-media-icon" href="https://www.facebook.com/CEAXamapan">
             <i class="bx bxl-facebook"></i>
         </a>
         <a class="social-media-icon" href=" ">
